@@ -10,4 +10,26 @@ public class Task {
         this.title = title;
         this.completed = completed;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public boolean isCompleted() {
+        return completed;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setCompleted(boolean completed) {
+        this.completed = completed;
+    }
+
+
 }
